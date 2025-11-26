@@ -6,7 +6,7 @@ import java.io.IOException;
 public class MainComposite {
 
     public static void main(String[] args) throws IOException {
-        File dir = new File("/Users/cruzlara5/workspace/S3_QDev_Composite/src");
+        File dir = new File(args[0]);
         FileComposite fc = new Repertoire(dir);
         fc.afficher(" ");
     }
